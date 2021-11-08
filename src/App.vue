@@ -4,11 +4,11 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/TomatoClock/TomatoClock';
+import TomatoClock from "@/components/TomatoClock/TomatoClock.vue";
 
 @Options({
   components: {
-    TomatoClock,
+    TomatoClock
   },
 })
 export default class App extends Vue {}
